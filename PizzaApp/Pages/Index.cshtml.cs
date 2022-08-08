@@ -10,6 +10,11 @@ namespace PizzaApp.Pages
     {
         public bool FirstLoad { get; set; }
 
+        [Display(Name = "Pizza Type")]
+        public string PizzaType { get; set; }
+
+        public PizzaBase Pizza { get; set; }
+
         public void OnGet()
         {
             FirstLoad = false;

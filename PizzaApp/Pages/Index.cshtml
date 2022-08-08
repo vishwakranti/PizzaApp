@@ -9,7 +9,23 @@
     <div class="card-header">      
         <h3>Pizza Selector</h3>    
     </div>
+    <div class="card-body">
+        <form method="post">
+            <div class="form-group">
+                <div class="row">
 
+                    <label asp-for="@Model.PizzaType" class="col-lg-4"></label>
+                    <select asp-for="@Model.PizzaType" asp-items="@Html.GetEnumSelectList<PizzaEnum>()" class="col-lg-4">
+                    </select>
+                    <input type="submit" value="Choose Pizza Type" asp-action="Index" class="col-lg-3 mx-auto text-success" />
+                </div>
+
+                <div class="row m-5">
+                   
+                </div>
+            </div>
+        </form>
+    </div>
 
     @if (Model.FirstLoad)
     
