@@ -1,10 +1,26 @@
 ﻿@page
+@using PizzaApp.Models;
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="card" style=" margin-top: 20px">
+    <div class="card-header">      
+        <h3>Pizza Selector</h3>    
+    </div>
+
+
+    @if (Model.FirstLoad)
+    
+    {
+        <div class="card-footer">
+        <h3>Results</h3>
+
+        <div class="row">
+            
+        </div>
+    </div>
+    }
+
 </div>
