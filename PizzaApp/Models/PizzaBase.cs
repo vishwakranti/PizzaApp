@@ -11,6 +11,7 @@ namespace PizzaApp.Models
         public bool IsVegetarian { get; set ; }
         public bool IsGlutenFree { get ; set; }
         public List<Tuple<PizzaSizeEnums, decimal>> PizzaPrice { get; set; } = new List<Tuple<PizzaSizeEnums, decimal>>();
+        public string Image { get; set; }
 
         public virtual void PizzaChefName(string name = "Muhammad Ali")
         {

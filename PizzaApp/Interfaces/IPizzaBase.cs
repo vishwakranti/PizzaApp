@@ -7,6 +7,7 @@ namespace PizzaApp.Interfaces
         string PizzaChef { get; set; }
         string Name { get; set; }
 
+        string Image { get; set; }
         List<string> Ingredients { get; set; }
         List<Tuple<PizzaSizeEnums, decimal>> PizzaPrice { get; set; } 
 
