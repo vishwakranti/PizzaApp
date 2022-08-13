@@ -2,7 +2,6 @@
 {
     public class ChickenPizza : PizzaBase
     {
-        public new string Image { get; set; } = "chicken.JPG";
 
         public ChickenPizza()
         {
@@ -14,6 +13,9 @@
             PizzaPrice.Add(new Tuple<PizzaSizeEnums, decimal>(PizzaSizeEnums.Large, 22.5m));
 
             PizzaChefName("Michael Jackson");
+            Image = "chicken.JPG";
+            IsGlutenFree = true;
+            IsVegetarian = false;
         }
         public override void PizzaChefName(string name)
         {
