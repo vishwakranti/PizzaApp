@@ -16,6 +16,7 @@
             Image = "VegPizza.JPG";
             IsGlutenFree = false;
             IsVegetarian = true;
+            Description = "Vegetarian Pizza has a cheese base";
         }
 
         public override void PizzaChefName(string name = "Justin Beiber")

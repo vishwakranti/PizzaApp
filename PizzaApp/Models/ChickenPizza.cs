@@ -16,6 +16,8 @@
             Image = "chicken.JPG";
             IsGlutenFree = true;
             IsVegetarian = false;
+            Description = "Chicken Pizza has a very thick crust with cheese";
+
         }
         public override void PizzaChefName(string name)
         {

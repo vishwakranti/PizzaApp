@@ -15,6 +15,7 @@
             Image = "BeefPizza.JPG";
             IsGlutenFree = true;
             IsVegetarian = false;
+            Description = "Beef Pizza has a thin base ";
         }
 
         public override void PizzaChefName(string name)

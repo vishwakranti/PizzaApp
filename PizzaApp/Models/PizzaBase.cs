@@ -13,6 +13,8 @@ namespace PizzaApp.Models
         public List<Tuple<PizzaSizeEnums, decimal>> PizzaPrice { get; set; } = new List<Tuple<PizzaSizeEnums, decimal>>();
         public string Image { get; set; }
 
+        public string Description { get; set; }
+
         public virtual void PizzaChefName(string name = "Muhammad Ali")
         {
             PizzaChef = name;
