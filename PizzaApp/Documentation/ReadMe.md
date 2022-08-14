@@ -1,4 +1,4 @@
-﻿# Project Title - DSD 601 Software Development 2 - CarpetCostCalculator
+﻿# Project Title - DSD 601 Software Development 2 - Programming Project – Pizza App
 # Project Description - In this assessment, develop an application for ATC PizzaStore by using SDLC tools and techniques,
 C# programming language and object-oriented programming principles including Inheritance, Polymorphism, Abstraction, 
 and the Factory Design Pattern. 
@@ -7,6 +7,7 @@ brief description, ingredients, type (Vegetarian, Gluten-free, Vegan), cost (sma
 # Steps to run the Program
 Open visual studio 2022 and Click on green arrow to run the code and select the browser to run the code(Firefox,Edge etc).
 # Additional Information 
-I have used the Dominos website  for download the images of Pizza.
-# I have used Trello board
+Pizza photos taken from the Dominos Website (Dominos Website: https://order.dominos.co.nz/menu)
+# Trello board
+#Git Commits
 
