@@ -35,7 +35,7 @@
         <h3>Results</h3>
 
         <div class="row">
-             <img src="~/images/@Model.Pizza.Image" class="card-img-top img-fluid img-thumbnail rounded mx-auto d-block" />   
+             <img src="~/images/@Model.Pizza.Image" class="card-img-top img-fluid img-thumbnail rounded mx-auto d-block col-md-2" />   
         </div>
         <div class=" row">
                 @{
@@ -67,7 +67,13 @@
    
                }
 
+
         </div>
+        <div class="row">
+           <div> This Pizza is made by @Model.Pizza.PizzaChef</div>
+
+        </div>
+
 
 
 
